@@ -7,7 +7,7 @@ package org.mybatis.needdesign.factory;
 public class Client {
 
     public static void main(String[] args) {
-       CarFactory carFactory = new JeepFactory();
+        JeepFactory carFactory = new JeepFactory();
 
        carFactory.CreateCar().getCar();
     }
