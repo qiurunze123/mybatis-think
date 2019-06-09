@@ -16,6 +16,8 @@ import java.io.Reader;
  * 每一个mybatis 应用程序都已 一个SqlSessionFactory对象
  *
  * 加载 -- 解析 -- 构建
+ *
+ * configuation -- sqlsessionfactory - salsession - mapper - db
  */
 public class MybatisHelloWorld {
     public static void main(String[] args) {
